@@ -1,0 +1,32 @@
+{
+  "name": "youtube-marks",
+  "version": "1.0.0",
+  "description": "create marks in youtube videos, then use hotkeys to get back in those marks",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --entry ./src/index.js --output-filename index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phsantiago/youtube-marks.git"
+  },
+  "keywords": [
+    "youtube",
+    "hotkey",
+    "vimlike"
+  ],
+  "author": "phsantiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phsantiago/youtube-marks/issues"
+  },
+  "homepage": "https://github.com/phsantiago/youtube-marks#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "rxjs": "^6.0.0",
+    "wait-for-element": "^1.0.2"
+  }
+}
